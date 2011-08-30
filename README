@@ -2,7 +2,7 @@ NAME
     Task::Sub::Spec - Install all Sub::Spec modules
 
 VERSION
-    version 0.01
+    version 0.02
 
 DESCRIPTION
     This task will install all Sub::Spec modules.
@@ -11,22 +11,23 @@ TASK CONTENTS
   Included modules
    Sub::Spec
    Sub::Spec::BashComplete
-   Sub::Spec::ByURI
-   Sub::Spec::ByURI::http
    Sub::Spec::CmdLine
    Sub::Spec::Examples
    Sub::Spec::Gen::ReadTable
    Sub::Spec::GetArgs::Argv
    Sub::Spec::GetArgs::Array
    Sub::Spec::GetArgs::GetPost
-   Sub::Spec::GetArgs::PathInfo
    Sub::Spec::HTTP
    Sub::Spec::HTTP::Server
+   Sub::Spec::Object
+   Sub::Spec::Response::Format
    Sub::Spec::Runner
    Sub::Spec::To::HTML
    Sub::Spec::To::Org
    Sub::Spec::To::Pod
    Sub::Spec::To::Text
+   Sub::Spec::URI
+   Sub::Spec::URI::http
    Sub::Spec::Use
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
