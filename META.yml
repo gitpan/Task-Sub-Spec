@@ -7,34 +7,15 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Task-Sub-Spec
 requires:
-  Sub::Spec: 0
-  Sub::Spec::BashComplete: 0
-  Sub::Spec::CmdLine: 0
-  Sub::Spec::Examples: 0
-  Sub::Spec::Gen::ReadTable: 0
-  Sub::Spec::GetArgs::Argv: 0
-  Sub::Spec::GetArgs::Array: 0
-  Sub::Spec::GetArgs::GetPost: 0
-  Sub::Spec::HTTP: 0
-  Sub::Spec::HTTP::Server: 0
-  Sub::Spec::Object: 0
-  Sub::Spec::Response::Format: 0
-  Sub::Spec::Runner: 0
-  Sub::Spec::To::HTML: 0
-  Sub::Spec::To::Org: 0
-  Sub::Spec::To::Pod: 0
-  Sub::Spec::To::Text: 0
-  Sub::Spec::URI: 0
-  Sub::Spec::URI::http: 0
-  Sub::Spec::Use: 0
+  Task::Perinci: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-Sub-Spec/
   repository: http://github.com/sharyanto/perl-Task-Sub-Spec
-version: 0.02
+version: 0.03

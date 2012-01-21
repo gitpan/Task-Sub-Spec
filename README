@@ -2,38 +2,26 @@ NAME
     Task::Sub::Spec - Install all Sub::Spec modules
 
 VERSION
-    version 0.02
+    version 0.03
 
 DESCRIPTION
-    This task will install all Sub::Spec modules.
+    NOTICE: This module and the Sub::Spec standard is deprecated as of Jan
+    2012. Rinci is the new specification to replace Sub::Spec, it is about
+    95% compatible with Sub::Spec, but corrects a few issues and is more
+    generic. "Perinci::*" is the Perl implementation for Rinci and many of
+    its modules can handle existing Sub::Spec sub specs.
+
+    This bundle is now installing Task::Perinci instead. Sub::Spec modules
+    will be removed from CPAN in the future.
 
 TASK CONTENTS
   Included modules
-   Sub::Spec
-   Sub::Spec::BashComplete
-   Sub::Spec::CmdLine
-   Sub::Spec::Examples
-   Sub::Spec::Gen::ReadTable
-   Sub::Spec::GetArgs::Argv
-   Sub::Spec::GetArgs::Array
-   Sub::Spec::GetArgs::GetPost
-   Sub::Spec::HTTP
-   Sub::Spec::HTTP::Server
-   Sub::Spec::Object
-   Sub::Spec::Response::Format
-   Sub::Spec::Runner
-   Sub::Spec::To::HTML
-   Sub::Spec::To::Org
-   Sub::Spec::To::Pod
-   Sub::Spec::To::Text
-   Sub::Spec::URI
-   Sub::Spec::URI::http
-   Sub::Spec::Use
+   Task::Perinci
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Steven Haryanto.
+    This software is copyright (c) 2012 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
